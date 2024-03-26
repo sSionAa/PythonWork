@@ -1,5 +1,5 @@
 from correctValues import *
-from methods_notes import *
+from methodsNotes import *
 
 # интерфейс
 file_name = "notes.jsonl"
