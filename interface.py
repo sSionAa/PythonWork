@@ -1,4 +1,4 @@
-from correct_value import *
+from correctValues import *
 from methods_notes import *
 
 # интерфейс
