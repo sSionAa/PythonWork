@@ -140,7 +140,7 @@ def search_note(search_in,file_name):
                             print("*"*60)
                             print(value.rstrip())
                         else:
-                            print(f"{key}{" "*(30-len(key))} : {value.rstrip()}")
+                            print(f"{key}{' '*(30-len(key))} : {value.rstrip()}")
                     print()
                     break
     if count==0:
@@ -162,6 +162,6 @@ def show_notes(file_name):
                     print("*"*60)
                     print(value.rstrip())
                 else:
-                    print(f"{key}{" "*(30-len(key))} : {value.rstrip()}")
+                    print(f"{key}{' '*(30-len(key))} : {value.rstrip()}")
 
             print('\n', "*"*60, sep='')
